@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# IDE specific files
+.idea/
+*.iml
+.vscode/
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Media files
+media/
+
+# Static files (collected during deployment)
+static/
+
+# Environment variables
+.env
+*.env
+
+# Logs
+*.log
+logs/
+
+# Django specific
+local_settings.py
+# Some prefer to ignore migrations, but generally, migrations should be committed
+# app_name/migrations/
